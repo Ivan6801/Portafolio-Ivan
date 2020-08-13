@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ivan Gonzalez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/loogo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/grid.css">
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <figure style="margin-left: 45px;" class="logo">
+          <img src="images/ivan2.png" height="65" alt="Logo de Ivan" />
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="index.html">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="index.html">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="certificados.html">Certificados</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+<br>
+<h2 class="h2-center">Certificados</h2>
+ 
+<section class="container-evento">
+  <h3 style="margin-left: 10px;">Arquitectura frontend</h3><img style="margin-left: 10px;" src="gif/frontend.gif" width="50px" alt="" title="Frontend">
+  <hr>
+  <br>
+  <section class="container-certificado">
+    
+    <div><img class="item-certificado" src="certificado/html y css.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/html y css practico.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/desarrollo de web online.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/responsive desgin.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/css grid layout.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/maquetacion en css.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/basico de javascript.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/animaciones para la web.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/bootstrap.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/tailwind css.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/materialize.jpg" alt=""></div>
+</section>
+</section>
+
+<section class="container-evento">
+  <h3 style="margin-left: 10px;">Diseño Gráfico</h3><img style="margin-left: 10px;" src="gif/diseno grafico.gif" width="50px" alt="" title="Diseño Gráfico">
+  <hr>
+  <br>
+  <section class="container-certificado">
+    <div><img class="item-certificado" src="certificado/illustrator.jpg" alt=""></div>
+    <div><img class="item-certificado" src="certificado/adobe xd.jpg" alt=""></div>
+</section>
+</section>
+
+<section class="container-evento">
+  <h3 style="margin-left: 10px;">Android Studio</h3><img style="margin-left: 10px;" src="gif/android.gif" width="60px" alt="" title="Android Studio">
+  <hr>
+  <br>
+  <section class="container-certificado">
+    <div><img class="item-certificado" src="certificado/android studio.jpg" alt=""></div>
+</section>
+</section>
+
+<!-- <section class="container-evento">
+  <h3 style="margin-left: 10px;">React Native</h3><img style="margin-left: 10px;" src="gif/react native.gif" width="60px" alt="" title="React Native">
+  <hr>
+  <section class="container-certificado">
+    <div><img class="item-certificado" src="" alt=""></div>
+  </section>
+  <center>
+  <h2>Proximamente</h2>
+  </center>
+</section> -->
+
+
+
+<br>
+<br>
+<br>
+
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
+          <h3>¿Creamos algo juntos?</h3>
+          <input type="email" placeholder="Déjame tu email" id="email">
+          <!-- <br>
+          <textarea name="mensaje" placeholder="Mensaje" style="height: 80px; width: 210px;" required=""></textarea> -->
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://www.facebook.com/ivanalexander.gonzalez" target="_black" title="Facebook" class="social-link facebook"></a>
+          <a href="https://github.com/Ivan6801" target="_black" title="Git Hub" class="social-link github"></a>
+          <a href="https://www.instagram.com/ivanglz12/" target="_black" title="Instagram" class="social-link instagram"></a>
+          <!-- <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a> -->
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Desarrollo web online 2020 
+            <br>
+            <br>
+            <img src="images/ivan2.png" width="250" alt="platzi"></p>
+        </div>
+        <div>
+          <p>
+            Diseñado con 💓 por <a href="mailto:ivanalexander39@hotmail.com">ivanalexander39@hotmail.com</a>
+          </p>
+          <br>
+          <br>
+        </div>
+      </div>
+    </footer>
+    <script>
+      console.log('Hola mundo! es mi primera linea en JS');
+     
+
+      const menu = document.querySelector('.menu');
+      console.log(menu);
+      const burgerButton = document.querySelector('#burger-menu');
+      console.log(burgerButton);
+      burgerButton.addEventListener('click', hideShow)
+
+      function hideShow() {
+        if (menu.classList.contains('is-active')) {
+          menu.classList.remove('is-active');
+        } else {
+          menu.classList.add('is-active');
+        } 
+      }
+      
+    </script>
+  </body>
+</html>
