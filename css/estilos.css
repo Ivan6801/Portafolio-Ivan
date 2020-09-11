@@ -375,12 +375,35 @@ textarea {
 }
 .social-link.facebook {
   background-image: url('../images/facebook.svg');
+  transition: .3s;
+}
+.social-link.facebook:hover {
+  background-color: #1877F2;
+  border-radius: 16%;
+  box-shadow: 1px 1px 10px 2px #1877F2;;
+  transition: .3s;
 }
 .social-link.github {
   background-image: url('../images/github.svg');
+  transition: .3s;
+  border-radius: 50%;
+}
+.social-link.github:hover {
+  background-color: #24292E;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px 2px#24292E;
+  transition: .3s;
 }
 .social-link.instagram {
   background-image: url('../images/instagram.svg');
+  transition: .3s;
+  border-radius: 30%;
+}
+.social-link.instagram:hover {
+  background-color: #FF7C45;
+  border-radius: 30%;
+  box-shadow: 1px 1px 10px 2px #FF7C45;;
+  transition: .3s;
 }
 
 
@@ -525,6 +548,7 @@ textarea {
   animation-duration: .8s;
 }
 
+/* Animation */
 .item-experiencia:hover {
   animation-iteration-count: infinite;
   transition: .3s;
@@ -572,7 +596,6 @@ textarea {
 /*Pantalla tamaño 4k ULTRA*/
 @media screen and (max-width: 2560px) {
   .burger-button{
-    display: block;
     top: -50px;
   }
 }
@@ -580,7 +603,6 @@ textarea {
 /*Pantalla tamaño 1080 HD FULL*/
 @media screen and (max-width: 1920px) {
   .burger-button{
-    display: block;
     top: -50px;
   }
 }
@@ -668,7 +690,6 @@ textarea {
     justify-content: center;
     z-index: 3;
     background-color: rgba(96, 31, 36, 0.9);
-    
     transition: .5s;
 
   }
@@ -718,7 +739,6 @@ textarea {
   .event-detail {
     margin: -40px 20px 0 20px;
   }
-
   .contact {
     display: block;
     height: auto;
