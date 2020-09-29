@@ -12,6 +12,15 @@
     transition: width 1s;
 }
 
+.border-green  {
+    box-shadow: 1px 1px 20px 1px #01A767;
+}
+
+.border-yellow {
+    /* border: 5px solid yellow; */
+    box-shadow: 1px 1px 20px 1px #F2D307;
+}
+
 .item-certificado:hover {
     box-shadow: 4px 4px 20px 5px #601F24;
     transition: .5s;
