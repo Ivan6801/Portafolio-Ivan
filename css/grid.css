@@ -57,7 +57,7 @@
 @media screen and (max-width: 1024px){ 
     .container-certificado{
         display: grid;
-        grid-template: 1fr / repeat(3, 30%);
+        grid-template: 1fr / repeat(2, 30%);
     }
 }
 
