@@ -406,6 +406,17 @@ textarea {
   transition: .3s;
 }
 
+.container-contacto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.form-correo {
+  padding: 0px 10px;
+}
+
 
 .form-email input {
   border-color: gray;
@@ -417,6 +428,7 @@ textarea {
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 5px;
+
 }
 
 .form-email button {
@@ -643,7 +655,6 @@ textarea {
     display: block;
     top: -50px;
   }
-
 }
 
 /*Tamaños de tablet 7.0, 7.9, 8.9, 9.7 y 12.9*/
@@ -652,7 +663,8 @@ textarea {
 
   .burger-button{
     display: block;
-    top: 10px;
+    top: 6px;
+    
   }
 
   h2 {
@@ -704,6 +716,16 @@ textarea {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .container-contacto {
+    display: block;
+    height: auto;
+    padding: 1.5em 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /*Tamaños de Mobile L, M y S */
 
 @media screen and (max-width: 480px) {
@@ -726,7 +748,10 @@ textarea {
   }
   .project-description {
     font-size: .8em;
-    width: 50%;
+    width: 100%;
+  }
+  .project-image {
+    margin-left: 0px;
   }
   h1 {
     font-size: 1.5em;
