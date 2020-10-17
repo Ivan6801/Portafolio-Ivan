@@ -3,10 +3,11 @@ var ivan = {
     apellidoPadre: 'González',
     apellidoMadre: 'González',
     edad: 20,
+    altura: 1.65,
     fecha: '19 de Octubre de 1999',
     nacionalidad: 'México',
     ubicacion: 'Tijuana',
-    correo: 'ivanalexander39@hotmail.com',
+    correo: 'hal308366@gmail.com',
     telefono: 6643994860,
     carrera: 'Arquitectura Front End'
 }
