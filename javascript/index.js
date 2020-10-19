@@ -16,7 +16,7 @@ function imprimirDatos(persona) {
     document.getElementById('nombrecompleto').innerHTML = (`${persona.nombre}`) + (` ${persona.apellidoPadre} ${persona.apellidoMadre}`)
     document.getElementById('fechadenacimiento').innerHTML = (`${persona.fecha}`)
     document.getElementById('ubicacion').innerHTML = (persona.ubicacion)
-    document.getElementById('edad').innerHTML = (persona.edad)
+    document.getElementById('edad').innerHTML = (persona.edad + 1)
     document.getElementById('nombrecompleto2').innerHTML = (`${persona.nombre}`) + (` ${persona.apellidoPadre} ${persona.apellidoMadre}`)
     document.getElementById('correo').innerHTML = (`${persona.correo}`)
 }
