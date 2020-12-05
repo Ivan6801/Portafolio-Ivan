@@ -19,15 +19,18 @@ function imprimirDatos(persona) {
     document.getElementById('edad').innerHTML = (persona.edad + 1)
     document.getElementById('nombrecompleto2').innerHTML = (`${persona.nombre}`) + (` ${persona.apellidoPadre} ${persona.apellidoMadre}`)
     document.getElementById('correo').innerHTML = (`${persona.correo}`)
+    document.getElementById('nacionalidad').innerHTML = (`${persona.nacionalidad}`)
 }
 
-
-// const cumpleanos = persona => ({
+// var cumpleanos = persona => ({
 //     ...persona,
 //     edad: persona.edad + 1 
 // })       
+
+
 // cumpleanos(ivan)
 
-imprimirDatos(ivan)
 
+
+imprimirDatos(ivan)
 
