@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ivan Gonzalez - 💼</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/Icons-Ivan-IG.png" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <figure class="logo">
+         <img src="images/Logo-Ivan-IG.png" height="50" alt="Logo de Ivan" />
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="index.html">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="index.html">Experiencia</a>
+            </li>
+            <li>
+              <a class="link" href="certificados.html">Certificados</a>
+            </li>
+            <li>
+              <a id="link-yellow" class="link" href="javascript.html">JavaScript</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section  class="portfolio">
+      <div class="container">
+        <br>
+        <h2 id="portafolio">(Proyectos JavaScript)</h2>
+        <!-- Eventos -->
+
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">JavaScript Vanilla <img src="gif/js.gif" width="50px" style="position: relative; bottom: -10px;" alt=""></h3>
+            <h6 class="project-course">JavaScript / JS</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 14/12/2020</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong><a class="link-url" href="https://ivan6801.github.io/cientifico/" target="_blank">https://ivan6801.github.io/cientifico/</a></small></p>
+            <p class="project-description">
+              Crea una aplicación web de página única y cárgala con información usando JavaScript Vanilla. Diseña una experiencia fluida para tus usuarios llamando a una API para mostrar la información y navegar entre los detalles de cada personaje.
+            </p>
+          </div>
+          <figure class="project-imageContainer">
+            <a href="https://ivan6801.github.io/cientifico/" target="_blank"><img class="project-image" width="500" src="images/cientifico.jpg" alt="Google"></a>
+            <p class="project-url"></p>
+          </figure>
+        </article>
+
+        <!-- Article -->
+      </div>
+        <section class="link-certificados-id">
+            <a class="event-url" href="certificados.html" style="font-size: 30px;">Certificados</a>
+        </section>
+    </section>
+ 
+
+    <section id="contacto" class="contact">
+      <div class="container-contacto">
+        <div class="form-email">
+            <h2 style="color: white; padding: 0px 10px;">¿Creamos algo juntos?</h2>
+            <h3 class="form-correo"><span style="font-weight: 600;">Correo:</span> <span style="font-weight: 100;">hal308366@gmail.com</span></h3>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/ivanalexander.gonzalez" target="_black" title="Facebook" class="social-link facebook"></a>
+          <a href="https://github.com/Ivan6801" target="_black" title="Git Hub" class="social-link github"></a>
+          <a href="https://www.instagram.com/ivanglz12/" target="_black" title="Instagram" class="social-link instagram"></a>
+          <!-- <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a> -->
+        </div>
+       </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Desarrollo web online 2020 
+            <br>
+            <br>
+            <img src="images/Logo-Ivan-IG.png" width="300" alt="platzi"></p>
+        </div>
+        <div>
+          <p>
+            Diseñado con 💓 por <a href="mailto:ivanalexander39@hotmail.com">ivanalexander39@hotmail.com</a>
+          </p>
+          <br>
+          <p>
+            Version: 5.5
+          </p>
+          <br>
+        </div>
+      </div>
+    </footer>
+    <script>
+      console.log('Hola mundo! es mi primera linea en JS');
+
+      const menu = document.querySelector('.menu');
+      console.log(menu);
+      const burgerButton = document.querySelector('#burger-menu');
+      console.log(burgerButton);
+      burgerButton.addEventListener('click', hideShow)
+
+      function hideShow() {
+        if (menu.classList.contains('is-active')) {
+          menu.classList.remove('is-active');
+        } else {
+          menu.classList.add('is-active');
+        } 
+      }
+      
+    </script>
+  </body>
+</html>
