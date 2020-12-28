@@ -50,14 +50,22 @@
 @media screen and (max-width: 1440px){
     .container-certificado{
         display: grid;
-        grid-template: 1fr / repeat(2, 45%);
+        grid-template: 1fr / repeat(3, 40%);
     }
 }
+
+@media screen and (max-width: 1280px){ 
+    .container-certificado{
+        display: grid;
+        grid-template: 1fr / repeat(3, 35%);
+    }
+}
+
 
 @media screen and (max-width: 1024px){ 
     .container-certificado{
         display: grid;
-        grid-template: 1fr / repeat(2, 30%);
+        grid-template: 1fr / repeat(3, 30%);
     }
 }
 
