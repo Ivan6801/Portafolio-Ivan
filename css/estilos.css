@@ -380,6 +380,12 @@ textarea {
 .social-link.twitter {
   background-image: url('../images/twitter.svg');
 }
+.social-link.twitter:hover {
+  background-color:#15202B;
+  box-shadow: 1px 1px 10px 2px #15202B;
+  border-radius: 30%;
+  transition: .3s;
+}
 .social-link.facebook {
   background-image: url('../images/facebook.svg');
   transition: .3s;
@@ -387,7 +393,7 @@ textarea {
 .social-link.facebook:hover {
   background-color: #1877F2;
   border-radius: 16%;
-  box-shadow: 1px 1px 10px 2px #1877F2;;
+  box-shadow: 1px 1px 10px 2px #1877F2;
   transition: .3s;
 }
 .social-link.github {
