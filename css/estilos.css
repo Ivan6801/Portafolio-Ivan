@@ -27,6 +27,12 @@ valores */
 /* gris claro = #626262 */
 /* background gris = #1b2127 */
 /* celeste = #026fff */
+
+::selection {
+    color: white;
+    background: #601f24;
+  }
+
 @font-face {
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?z9kmka');
