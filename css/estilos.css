@@ -33,6 +33,7 @@ valores */
     background: #601f24;
   }
 
+ 
 @font-face {
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?z9kmka');
@@ -181,6 +182,12 @@ h2 {
 .project-description {
   font-size: 20px;
 }
+.project-description a {
+  text-decoration: none;
+}
+.project-description small {
+  font-weight: 600;
+}
 .project strong {
   font-family: 'Fjalla One', sans-serif;
 }
@@ -212,6 +219,40 @@ h2 {
 
 .project-imageContainer {
   width: 50%;
+}
+
+.project-git {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 150px;
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.project-git:hover {
+  background: #601f24;
+  transition: .5s;
+}
+.project-git a:hover {
+  color: white;
+  transition: .2s;
+}
+
+.project-git a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.project-icon {
+  width: 30px;
 }
 
 .header {
@@ -249,7 +290,8 @@ figure {
   margin-top: 10px;
   border-radius: 5px;
   transition: .3s;
-  margin-left: 5px;
+  /* margin-left: 5px; */
+  outline: none;
 }
 
 #link-yellow:hover {
