@@ -1,4 +1,2 @@
 # Portafolio-Ivan
-Mis proyectos
-
-Proyecto realizado
+Mis proyectos 😎
