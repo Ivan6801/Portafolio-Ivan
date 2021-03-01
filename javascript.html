@@ -41,6 +41,7 @@
       <div class="container">
         <br>
         <h2 id="portafolio">(Proyectos JavaScript)</h2>
+        <h3>Articulos: <small id="article_javascript"></small></h3>
         <!-- Eventos -->
 
         <article class="project">
@@ -81,7 +82,7 @@
             <h3 class="form-correo"><span style="font-weight: 600;">Correo:</span> <span style="font-weight: 100;">hal308366@gmail.com</span></h3>
         </div>
         <div class="social">
-         <!-- <a href="https://www.facebook.com/ivanalexander.gonzalez" target="_black" title="Facebook" class="social-link facebook"></a> -->
+          <!-- <a href="https://www.facebook.com/ivanalexander.gonzalez" target="_black" title="Facebook" class="social-link facebook"></a> -->
           <a href="https://github.com/Ivan6801" target="_black" title="Git Hub" class="social-link github"></a>
           <a href="https://www.instagram.com/ivanglz12/" target="_black" title="Instagram" class="social-link instagram"></a>
           <a href="https://twitter.com/alexanderx_iv" target="_black" title="Twitter" class="social-link twitter"></a>
@@ -124,6 +125,16 @@
           menu.classList.add('is-active');
         } 
       }
+
+      let lista = document.getElementsByClassName('project');
+
+      function impirmirMostrar() {
+        document.getElementById('article_javascript').innerHTML = (`${lista.length}`)
+        console.log('Articles:',lista.length)
+        // document.write(lista.length)
+      }
+
+  impirmirMostrar()
       
     </script>
   </body>
