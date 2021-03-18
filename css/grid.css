@@ -74,6 +74,9 @@
         display: grid;
         grid-template: 1fr / repeat(2, 40%);
     }
+    .item-certificado:hover {
+        width: 100%
+    }
 }
 
 
@@ -81,6 +84,7 @@
 @media screen and (max-width: 600px) {
     .container-certificado{
         display: inline-block;
+        margin: 10px;
     }
 
     .item-certificado {
@@ -89,6 +93,5 @@
 
     .item-certificado:hover {
         width: 100%
-      
     }
 }
